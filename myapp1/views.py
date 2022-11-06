@@ -10,6 +10,5 @@ def home(request):
 
 
 def password(request):
-    # thepassword = ({"id": random.randint(0, x), "name": f"Sholpan {x}", "age": x + 20} for x in range(1, 100)
-    thepassword = "sholpinaabrakadabra" + str(random.randint(3, 333))
+    thepassword = "sholpinaabrakadabra" + str(random.randint(3, 333333))
     return render(request, "password.html", {"password": thepassword})
