@@ -6,8 +6,7 @@ import random
 
 
 def home(request):
-    mylist = [x for x in range(1, 10)]
-    return render(request, "home.html", {"password": mylist})
+    return render(request, "home.html")
 
 
 def password(request):
